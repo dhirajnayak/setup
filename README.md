@@ -9,7 +9,7 @@
 ##Programs That Should Be Installed Prior to following these instructions
 
 ###Required
-* VS2012 Professional (We will use VS2012 not VS2013)
+* VS2012/2013 Professional
 
 ###Optional
 * [ReSharper 8](http://www.jetbrains.com/resharper/download/)
