@@ -11,9 +11,6 @@
 ###Required
 * VS2012 Professional (We will use VS2012 not VS2013)
 
-###Recommended
-* [TestDriven.net 3](http://testdriven.net/download_release.aspx?LicenceType=Personal)
-
 ###Optional
 * [ReSharper 8](http://www.jetbrains.com/resharper/download/)
 
