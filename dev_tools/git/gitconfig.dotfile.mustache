@@ -1,0 +1,23 @@
+[core]
+autocrlf = true
+
+[user]
+  email = {{{git.email}}}
+  name = {{{git.name}}}
+
+[alias]
+  st = status -s
+  ci = commit
+  co = checkout
+  df = diff
+  dft = difftool
+  mgt = mergetool
+  lg = log -p
+  lol = log --graph --decorate --oneline
+  lola = log --graph --decorate --oneline --all
+
+[diff]
+  tool = vimdiff
+
+[push]
+  default = current

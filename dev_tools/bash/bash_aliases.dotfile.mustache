@@ -1,0 +1,12 @@
+alias course="cd /c/course"
+alias prep="course && cd prep"
+alias app="course && cd app"
+alias setup="course && cd setup"
+alias ..='cd ..'
+
+#function that will both create and switch to the directory specified
+function take()
+{
+   mkdir $1
+   cd $1
+}

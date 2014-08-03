@@ -1,0 +1,19 @@
+configure({
+  git: {
+    ssh_key: '~/.ssh/id_rsa' ,
+
+    name: `whoami`.chomp,
+
+    email: "REPLACE WITH YOUR EMAIL Address",
+
+    install_path: '/c/utils/git'
+  },
+
+  ruby: {
+    install_path: '/c/ruby/200',
+  },
+
+  mingw: {
+    install_path: '/c/utils/mingw'
+  }
+})

@@ -1,0 +1,30 @@
+require './user.rb'
+
+expand do
+
+  configure :core => 
+  { 
+    :home => ENV["HOME"]
+  }
+
+  load User.settings_file
+  
+  folders_to_copy = [
+    "bash",
+    "git",
+  ].map{|item| [%w[dev_tools], item].as_glob_pattern}
+
+  copy_to File.join(settings.core.home, ".ssh") do
+    contents %w[dev_tools ssh].as_glob_pattern
+  end
+
+  copy_to settings.core.home do
+    all_contents_in folders_to_copy
+  end
+
+  copy_to settings.mingw.install_path do
+    contents %w[dev_tools mingw].as_glob_pattern
+  end
+
+  look_for_templates_in "**/*.{erb,mustache}"
+end
