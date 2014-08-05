@@ -222,7 +222,7 @@ You should see a ruby version, if you don't see anything you may need to repeat 
 
 * If you already have a version of IIS Express installed (even if it is >= 7.5) please follow these steps.
 
-Install iis_express following these steps:
+Configure IIS Express 7.5 following these steps:
 
 1. Download the following zip [file](https://s3.amazonaws.com/developwithpassion-files/training/iis_express.zip)
 2. Copy the downloaded zip file to the clipboard
