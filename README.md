@@ -223,13 +223,13 @@ You should see a ruby version, if you don't see anything you may need to repeat 
 * If you already have a version of IIS Express installed (even if it is >= 7.5) please follow these steps.
 
 Install iis_express following these steps:
-  1. Download the installer from [here](http://www.microsoft.com/en-us/download/confirmation.aspx?id=1038)
-  2. Run the IIS Express installer. 
-  3. Copy (not cut) the folder C:\Program Files (x86)\IIS Express to the clipboard
-  4. Paste the copied folder into your C:\utils folder.
-  5. Rename the pasted IIS Express folder to iis_express.
-  6. Your c:\utils folder should now contain a folder called iis_express.
-  7. Rerun the IIS Express installer and remove the installed version of IIS Express. This will just leave your copied, registry-less version on the system.
+
+1. Download the following zip [file](https://s3.amazonaws.com/developwithpassion-files/training/iis_express.zip)
+2. Copy the downloaded zip file to the clipboard
+3. Open up a windows explorer folder and navigate to your C:\utils folder.
+4. Paste the zip file into your C:\utils folder.
+5. Unzip the zip file into your C:\utils folder.
+6. You should now have a folder named iis_express in your c:\utils folder.
   
 ##Install TestDriven .Net
 
